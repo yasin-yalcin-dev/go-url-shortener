@@ -66,7 +66,7 @@ curl -X POST http://localhost:8080/shorten \
 ```bash
 curl -X POST http://localhost:8080/shorten \
   -H "Content-Type: application/json" \
-  -d '{"original":"https://example.com", "ttl":"1h"}'
+  -d '{"original":"https://example.com", "ttl":3600000000000}'
 ```
 
 ### Get Analytics
